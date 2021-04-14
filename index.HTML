@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap" rel="stylesheet">
+    <title>Webdev1</title>
+</head>
+
+<body>
+
+    <div class="top_logo">
+
+
+        <img src="media/Masteralb.com TOP LOGO.png" alt="">
+
+    </div>
+
+    <div class="container">
+        <div class="first_column">
+            <section class="content">
+                <h1>Register Form</h1>
+                <div class="Sign_Up">
+
+                    <form action="" class="register">
+
+                        <div class="inputbox">
+                            <div class="imgbox">
+                                <img src="media/user_icon.png" alt="">
+                            </div>
+                            <input type="text" name="User1" placeholder="Username" id="user1">
+                        </div>
+                        <div class="inputbox">
+                            <div class="imgbox">
+                                <img src="media/pass_icon.png" alt="">
+                            </div>
+                            <input type="password" name="pass1" placeholder="Password" id="pass1">
+                        </div>
+                        <div class="inputbox">
+                            <div class="imgbox">
+                                <img src="media/pass_icon.png" alt="">
+                            </div>
+                            <input type="password" name="ConfirmPass" id="confirmpass" placeholder="Confirm Password">
+                        </div>
+                        <div class="inputbox input-email">
+                            <div class="imgbox">
+                                <img src="media/email_icon.png" alt="">
+                            </div>
+                            <input type="email" name="Reg_Email" id="reg_email" placeholder="Email">
+                        </div>
+
+                        <div class="inputbox">
+                            <div class="imgbox">
+                                <img src="media/location_icon.png" alt="">
+                            </div>
+                            <div class="select_option">
+                                <select>
+                                    <option>Your location</option>
+                                    <option>Poland</option>
+                                    <option>England</option>
+                                    <option>Japan</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="checkbox register-check">
+                                <input type="checkbox" name="Termsofuse" id="termsofuse">
+                                <label for="termsofuse">I have read and accept the terms of use</label>
+                            </div>
+                            <div class="butbox">
+                                <button class="SignUpButton">Sign up</button>
+                            </div>
+                        </div>
+                    </form>
+
+                </div>
+            </section>
+
+            <section class="content content-email">
+                <h1>Send Email</h1>
+                <div class="Send_Email">
+
+                    <form action="" class="email">
+
+                        <div class="inputbox">
+                            <div class="imgbox">
+                                <img src="media/user_icon.png" alt="">
+                            </div>
+                            <input type="text" name="Name" id="name" placeholder="Your Name">
+                        </div>
+
+                        <div class="inputbox input-email">
+                            <div class="imgbox">
+                                <img src="media/email_icon.png" alt="">
+                            </div>
+                            <input type="email" name="SendEmail" id="sendemail" placeholder="Your Email">
+                        </div>
+
+                        <div class="inputbox ">
+                            <textarea name="Message" id="message" cols="56" rows="10"
+                                placeholder="Type your message..."></textarea>
+                        </div>
+
+                        <div class="checkbox email-check">
+                            <input type="checkbox" name="Copy" id="copy">
+                            <label for="copy">Send a copy to my Email</label>
+                        </div>
+                        <div class="butbox">
+                            <button class="SendEmailBut">Send Email</button>
+                        </div>
+
+                    </form>
+
+                </div>
+            </section>
+        </div>
+
+
+
+        <div class="second_column">
+            <section class="content">
+                <h1>Sign In Form</h1>
+                <div class="Sign_In">
+
+                    <form action="" class="sign_in">
+
+                        <div class="inputbox">
+                            <div class="imgbox">
+                                <img src="media/user_icon.png" alt="">
+                            </div>
+                            <input type="text" placeholder="Username" id="user2">
+                        </div>
+
+                        <div class="inputbox">
+                            <div class="imgbox">
+                                <img src="media/pass_icon.png" alt="">
+                            </div>
+                            <input type="password" placeholder="Password" id="Pass2">
+                        </div>
+                        <div class="SignInRem">
+                            <div class="checkbox log-in-checkbox ">
+                                <input type="checkbox" name="Remember" id="rem" class="sign_in_check">
+                                <label for="rem">Remember me</label>
+                            </div>
+                            <div class="loginbutbox">
+                                <button class="SignInButton" type="submit">Sign in</button>
+                            </div>
+
+                        </div>
+                    </form>
+
+                </div>
+            </section>
+
+
+
+            <section class="content content-recover">
+                <h1>Recover Form</h1>
+                <div class="Recover">
+
+                    <form action="" class="recover_form">
+
+                        <div class="inputbox input-email">
+                            <div class="imgbox">
+                                <img src="media/email_icon.png" alt="">
+                            </div>
+                            <input type="email" name="Recover_Email" id="recover_email" placeholder="Enter your Email">
+                        </div>
+
+                        <div class="inputbox">
+                            <div class="imgbox">
+                                <img src="media/phone_icon.png" alt="">
+                            </div>
+                            <input type="tel" name="Phone_num" id="phone_num" placeholder="Enter your Phone number">
+                        </div>
+
+                        <div class="recover-rem">
+                            <div class="butbox butbox-send">
+                                <button class="but_recover_send" type="submit">Send</button>
+                            </div>
+                            <div class="butbox-done">
+                                <button class="but_recover_done" type="submit">Done</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </section>
+
+
+            <section class="content content-sub">
+                <h1>Subscribe Form</h1>
+                <div class="Subscribe">
+
+                    <form action="" class="subscribe" id="Subscribe">
+                        <div class="inputbox input-email">
+                            <div class="imgbox">
+                                <img src="media/email_icon.png" alt="">
+                            </div>
+                            <input type="email" name="Sub_email" id="sub_email" placeholder="Enter your Email">
+                        </div>
+
+                        <div class="sub-rem">
+                            <div class=" butboxsub">
+                                <button class="sub" type="submit">Subscribe</button>
+                            </div>
+                            <div class=" butboxsub2">
+                                <button class="sub_decline">No, Thanks</button>
+                            </div>
+                        </div>
+                    </form>
+
+                </div>
+            </section>
+
+            <section class="content">
+                <div class="bottom_logo">
+                    <img src="media/Masteralb.com LOGO.png" alt="">
+                </div>
+            </section>
+
+        </div>
+
+
+
+
+    </div>
+    </div>
+
+
+
+</body>
+
+</html>

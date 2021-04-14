@@ -1,0 +1,303 @@
+body{
+    margin:  0;
+    padding: 0;
+    background-image: url("media/Background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.top_logo img{
+    opacity: 0.3;
+}
+
+h1{
+    margin:  auto;
+    font-family: 'Titillium Web', sans-serif;
+    color: white;
+    text-align: center;
+    text-shadow: 1px 2px 2px black;
+    padding-bottom: 3%;
+}
+
+.top_logo{
+    padding-top: 3%;
+    width: 100%;
+    text-align: center;
+    clear: both;
+    padding-bottom: 3%;
+    
+}
+.log-in-checkbox{
+    width: 50%;
+    text-align: left;
+}
+
+
+
+.container{
+   display: flex;
+   justify-content: space-around;
+   box-sizing: border-box;
+   align-items: flex-start;
+   font-size: 120%;
+}
+
+.register,.email,.sign_in,.recover_form,.subscribe{
+text-align: center;
+width: 100%;
+background-color: rgb(244, 244, 244);
+border-radius: 5px;
+padding-top: 5%;
+padding-bottom: 5%;
+}
+
+/*CHECKBOX  */
+.checkbox{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.register-check{
+    text-align: justify;
+}
+
+.email-check{
+    text-align: justify;
+}
+
+
+/*Buttony */
+.SignUpButton,.SendEmailBut, .SignInButton,.but_recover_send, .but_recover_done,.sub{
+    background-color: rgb(138, 203, 38);
+    color: white;
+    border: 1px solid rgb(59, 154,0);
+    border-radius: 5px;
+    font-size:150%;
+}
+
+.SendEmailBut{
+    text-align: center;
+    width: 100%;
+    border-radius: 5px;
+    padding: 3%;
+    margin-top: 10px;
+}
+
+.SignInRem{
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+.recover-rem{
+    display: flex;
+    justify-content: center;
+}
+.sub-rem{
+    display: flex;
+    text-align: center;
+}
+.butbox-send{
+    width: 50%;
+}
+.butbox-done{
+    width: 50%;
+    padding-right: 4%;
+}
+.but_recover_send{
+    padding: 5%;
+    padding-left: 30%;
+    padding-right: 30%;
+}
+.but_recover_done{
+    padding: 5%;
+    padding-left: 30%;
+    padding-right: 30%;
+  
+}
+
+.SignInButton{
+    padding: 5%;
+    padding-left: 21%;
+    padding-right: 21%;
+}
+
+.sub_decline {
+    background-color: rgb(244, 76, 94);
+    border: 1px solid rgb(162,32, 42);
+    color: white;
+    border-radius: 5px;
+    padding-left: 10%;
+    padding-right: 8%;
+    height: 54.5px;
+    font-size:150%;
+    
+}
+.sub{
+   
+    height: 54.5px;
+    padding-left: 15%;
+    padding-right: 15%;
+    
+}
+.butboxsub{
+    width: 50%;
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.butboxsub2{
+    width: 50%;
+    display: flex;
+   
+}
+
+.loginbutbox{
+    width: 50%;
+    display: flex;
+    margin-left: 5%;
+}
+
+.SignUpButton{
+    text-align: center;
+    width: 100%;
+    border-radius: 5px;
+    padding: 3%;
+    margin-top: 3%;
+}
+.butbox{
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.inputbox{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border: 1px solid rgb(198, 198, 198);
+   color: rgb(175, 175, 175);
+   margin: 5%;
+   border-radius: 5px;
+   box-sizing: content-box;
+   
+   
+}
+input[type='checkbox']{
+position: relative;
+margin-right: 15px;
+border: hidden;
+}
+/*CUSTOM CHECKBOXY */
+input[type='checkbox']:before{
+border-radius: 3px;
+    border: 2px solid #c6c6c6;
+    content: "";
+    display: block;
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    background-color: white;
+    
+}
+input[type='checkbox']:checked::after{
+    content: "";
+    display: block;
+    width: 10px;
+    height: 10px;
+    background:linear-gradient(#a3d840,#7ec31f );
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    border-radius: 1px;
+}
+
+
+.inputbox input, .select_option, select{
+    width: 100%;
+    background-color: rgb(244, 244, 244);
+    border: none;
+    box-sizing: content-box;
+    margin-left: 2%;
+    
+}
+.input-email{
+    height: 48px;
+}
+.imgbox{
+    margin: 5px;
+    padding: 5px;
+    width: 15%;
+    border-right: 1px #c6c6c6 solid;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+
+label{
+    color: rgb(175, 175, 175);
+}
+
+.select_option{
+    text-align: left;
+    
+}
+select{
+    appearance: none;
+    position: relative;
+}
+
+.first_column,.second_column{
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+   
+}
+.first_column{
+    padding-left: 15%;
+}
+.second_column{
+    padding-right: 15%;
+}
+
+/* divy */
+.Sign_Up,.Recover,.Send_Email,.Sign_In,.Subscribe{
+border-radius: 5px;
+padding: 20px;
+background-color: rgba(0, 0, 0,0.3);
+}
+
+.content{
+    width: 75%;
+}
+.content-email{
+    padding-top: 5%;
+}
+
+.content-recover{
+    padding-top: 5%;
+}
+.content-sub{
+    padding-top: 5%;
+}
+
+
+/* logo  */
+.bottom_logo{
+    float: left;
+    text-align: center;
+    color: white;
+    width: 30%;
+    margin-top: 5%;
+    padding-right: 20%;
+}
+
+.bottom_logo img{
+    opacity: 0.3;
+    padding-top: 15%;
+    padding-bottom: 20%;
+}
